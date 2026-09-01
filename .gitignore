@@ -5,3 +5,6 @@ push.sh
 # Personal CV kept locally: the current PDF contains phone numbers.
 # Publish a scrubbed copy under files/ instead if you want a public CV link.
 Resume*.pdf
+
+# Full-resolution source for the avatar; images/avatar.jpg is what the site uses.
+images/picture.jpg
