@@ -19,7 +19,13 @@ redirect_from:
 
 I am a Ph.D. student at the [Language Media Processing Lab](https://nlp.ist.i.kyoto-u.ac.jp/EN/), Graduate School of Informatics, Kyoto University, advised by Associate Professor Yugo Murawaki.
 
-My research centers on **making the hidden structure of language models usable and controllable** — currently along three threads: **linguistic steganography** (provably secure information hiding in generated text), **watermarking** for large language models, and **memory** in LLM agents. A recurring theme in my work is the mismatch between the token-level view a model operates on and the string-level view a reader or adversary sees, which turns out to be a source of both security failures and efficiency gains.
+My research is on the **security and reliability of text that language models generate**, along two threads.
+
+The first is **linguistic steganography and watermarking**. Provable security is well understood in the abstract, but the guarantees tend to weaken once a stegotext has to survive a real channel, and my work targets the points where they do. [Range coding](https://arxiv.org/abs/2604.08052) recovers the embedding capacity that provably secure methods normally give up, reaching close to full entropy utilization. [Anchored sliding window](https://arxiv.org/abs/2604.09066) keeps hidden messages recoverable after the carrier text has been edited, without the drop in text quality that shrinking the context window causes. And when sender and receiver [tokenize the same string differently](https://aclanthology.org/2025.emnlp-main.361/), robustness degrades silently — the tokens responsible turn out to be identifiable by being infrequent and temporary. I have also [surveyed the field](https://arxiv.org/abs/2608.29077), covering 148 methods, 60 steganalysis countermeasures, 23 evaluation metrics, and 9 open challenges, and identifying five paradigm shifts the LLM era has brought to it.
+
+The second is **memory in LLM agents**. In [MemDefrag](https://arxiv.org/abs/2607.05969) we found that a small set of middle transformer layers already concentrates its attention on the memory fragment being retrieved — an implicit tracing signal — and used it to rank, reorder and prune stored memories, more than doubling knowledge retention over prior latent-memory methods without any training.
+
+A habit runs through both threads: instead of bolting extra machinery onto the model, look for the signal it already exposes — the full entropy of its output distribution, or where its attention is already pointing — and use that properly.
 
 I am supported by a [JSPS Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) and the Kyoto University DoGS SPRING Program. You can find my work on <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'>Google Scholar</a> <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
@@ -42,7 +48,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/500x300.png' alt="MemDefrag" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**MemDefrag: Latent Memory Defragmentation for Large Language Models**
+[MemDefrag: Latent Memory Defragmentation for Large Language Models](https://arxiv.org/abs/2607.05969)
 
 **Ruiyi Yan**, Zhuoyuan Mao, Yiwen Guo
 
@@ -72,7 +78,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/500x300.png' alt="Steganography Survey" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**A Comprehensive Survey on Linguistic Steganography: Methods, Countermeasures, Evaluation, and Challenges**
+[A Comprehensive Survey on Linguistic Steganography: Methods, Countermeasures, Evaluation, and Challenges](https://arxiv.org/abs/2608.29077)
 
 **Ruiyi Yan**, Chenhui Chu, Zhongliang Yang, Yugo Murawaki
 
