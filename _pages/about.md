@@ -39,13 +39,13 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 <sup>\*</sup> All papers below are first-author. See [Google Scholar](https://scholar.google.com/citations?user=Wfkf1S4AAAAJ) for the complete list.
 
-- [MemDefrag: Latent Memory Defragmentation for Large Language Models](https://arxiv.org/abs/2607.05969), **Ruiyi Yan**, Zhuoyuan Mao, Yiwen Guo, **EMNLP 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2607.05969) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MemDefrag)
+- [MemDefrag: Latent Memory Defragmentation for Large Language Models](https://arxiv.org/abs/2607.05969), **Ruiyi Yan**, Zhuoyuan Mao, Yiwen Guo, **EMNLP 2026** \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2607.05969) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MemDefrag)
 
-- [A Comprehensive Survey on Linguistic Steganography: Methods, Countermeasures, Evaluation, and Challenges](https://arxiv.org/abs/2608.29077), **Ruiyi Yan**, Chenhui Chu, Zhongliang Yang, Yugo Murawaki, **EMNLP 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2608.29077)
+- [A Comprehensive Survey on Linguistic Steganography: Methods, Countermeasures, Evaluation, and Challenges](https://arxiv.org/abs/2608.29077), **Ruiyi Yan**, Chenhui Chu, Zhongliang Yang, Yugo Murawaki, **EMNLP 2026** \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2608.29077)
 
-- [Efficient Provably Secure Linguistic Steganography via Range Coding](https://arxiv.org/abs/2604.08052), **Ruiyi Yan**, Yugo Murawaki, **ACL 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2604.08052) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RRC_steganography)
+- [Efficient Provably Secure Linguistic Steganography via Range Coding](https://aclanthology.org/2026.acl-long.39/), **Ruiyi Yan**, Yugo Murawaki, **ACL 2026**, pp. 890–907 \| [<i class="ai ai-open-access"></i> **Paper**](https://aclanthology.org/2026.acl-long.39/) \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2604.08052) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RRC_steganography)
 
-- [Anchored Sliding Window: Toward Robust and Imperceptible Linguistic Steganography](https://arxiv.org/abs/2604.09066), **Ruiyi Yan**, Shiao Meng, Yugo Murawaki, **ACL 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2604.09066) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/ASW_steganography)
+- [Anchored Sliding Window: Toward Robust and Imperceptible Linguistic Steganography](https://aclanthology.org/2026.acl-long.44/), **Ruiyi Yan**, Shiao Meng, Yugo Murawaki, **ACL 2026**, pp. 993–1012 \| [<i class="ai ai-open-access"></i> **Paper**](https://aclanthology.org/2026.acl-long.44/) \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2604.09066) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/ASW_steganography)
 
 - [Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models](https://aclanthology.org/2025.emnlp-main.361/), **Ruiyi Yan**, Yugo Murawaki, **EMNLP 2025** \| [<i class="ai ai-open-access"></i> **Paper**](https://aclanthology.org/2025.emnlp-main.361/) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/Consistency)
 
@@ -57,7 +57,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 ## Preprints and Manuscripts under Review
 
-- [HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework](https://arxiv.org/abs/2607.23597), **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2607.23597) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
+- [HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework](https://arxiv.org/abs/2607.23597), **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2607.23597) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
 
 # 🎖 Honors and Awards
 - *2026.04 – 2028.03*, JSPS Research Fellowship for Young Scientists (DC2), Japan Society for the Promotion of Science.
