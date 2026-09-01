@@ -86,19 +86,19 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 </div>
 </div>
 
-- [Anchored Sliding Window: Toward Robust and Imperceptible Linguistic Steganography](https://arxiv.org/abs/2604.09066), **Ruiyi Yan**, Shiao Meng, Yugo Murawaki, **ACL 2026** \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/ASW_steganography)
+- [Anchored Sliding Window: Toward Robust and Imperceptible Linguistic Steganography](https://arxiv.org/abs/2604.09066), **Ruiyi Yan**, Shiao Meng, Yugo Murawaki, **ACL 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2604.09066) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/ASW_steganography)
 
-- [Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models](https://aclanthology.org/2025.emnlp-main.361/), **Ruiyi Yan**, Yugo Murawaki, **EMNLP 2025** \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/Consistency)
+- [Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models](https://aclanthology.org/2025.emnlp-main.361/), **Ruiyi Yan**, Yugo Murawaki, **EMNLP 2025** \| [<i class="ai ai-open-access"></i> **Paper**](https://aclanthology.org/2025.emnlp-main.361/) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/Consistency)
 
-- [TokenFree: A Tokenization-Free Generative Linguistic Steganographic Approach with Enhanced Imperceptibility](https://ieeexplore.ieee.org/document/10831652), **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 449–455 \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/TokenFree)
+- [TokenFree: A Tokenization-Free Generative Linguistic Steganographic Approach with Enhanced Imperceptibility](https://ieeexplore.ieee.org/document/10831652), **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 449–455 \| [<i class="ai ai-ieee"></i> **Paper**](https://ieeexplore.ieee.org/document/10831652) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/TokenFree)
 
-- [A Near-Imperceptible Disambiguating Approach via Verification for Generative Linguistic Steganography](https://ieeexplore.ieee.org/document/10831370), **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 1638–1643
+- [A Near-Imperceptible Disambiguating Approach via Verification for Generative Linguistic Steganography](https://ieeexplore.ieee.org/document/10831370), **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 1638–1643 \| [<i class="ai ai-ieee"></i> **Paper**](https://ieeexplore.ieee.org/document/10831370)
 
-- [A Secure and Disambiguating Approach for Generative Linguistic Steganography](https://doi.org/10.1109/LSP.2023.3302749), **Ruiyi Yan**, Yating Yang, Tian Song, **IEEE Signal Processing Letters**, vol. 30, pp. 1047–1051, 2023 \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MWIS-disambiguation)
+- [A Secure and Disambiguating Approach for Generative Linguistic Steganography](https://doi.org/10.1109/LSP.2023.3302749), **Ruiyi Yan**, Yating Yang, Tian Song, **IEEE Signal Processing Letters**, vol. 30, pp. 1047–1051, 2023 \| [<i class="ai ai-ieee"></i> **Paper**](https://doi.org/10.1109/LSP.2023.3302749) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MWIS-disambiguation)
 
 ## Preprints and Manuscripts under Review
 
-- [HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework](https://arxiv.org/abs/2607.23597), **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
+- [HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework](https://arxiv.org/abs/2607.23597), **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2607.23597) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
 
 # 🎖 Honors and Awards
 - *2026.04 – 2028.03*, JSPS Research Fellowship for Young Scientists (DC2), Japan Society for the Promotion of Science.
