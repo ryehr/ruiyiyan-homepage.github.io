@@ -30,8 +30,8 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 # 🔥 News
 - *2026.08*: &nbsp;🎉 Two papers accepted to **EMNLP 2026**: *MemDefrag* and our survey on linguistic steganography.
 - *2026.04*: &nbsp;🎉 Two papers accepted to **ACL 2026**: *Efficient Provably Secure Linguistic Steganography via Range Coding* and *Anchored Sliding Window*.
-- *2026.04*: &nbsp;🎖 Awarded the **JSPS Research Fellowship for Young Scientists (DC2)**, 2026.04 – 2028.03.
 - *2025.12*: &nbsp;💻 Started working with **Tencent (Tokyo)** on memory for LLM agents.
+- *2025.09*: &nbsp;🎖 Selected for the **JSPS Research Fellowship for Young Scientists (DC2)** (term: 2026.04 – 2028.03).
 - *2025.08*: &nbsp;🎉 One paper accepted to **EMNLP 2025** on tokenization inconsistency in steganography and watermarking.
 - *2024.10*: &nbsp;🎓 Started my Ph.D. at **Kyoto University** as a DoGS SPRING Fellow.
 
