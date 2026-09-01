@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Ruiyi Yan"
-description              : "Ph.D. student at Kyoto University. Working on LLM steganography, watermarking, and memory."
+description              : "Research on memory in large language models, and on linguistic steganography and watermarking."
 repository               : "ryehr/ruiyiyan-homepage.github.io"
 
 # Project site: the repo is NOT named <username>.github.io, so the site is served
