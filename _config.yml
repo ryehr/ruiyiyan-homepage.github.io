@@ -6,9 +6,14 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Lorem ipsum"
-description              : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. "
-repository               : "RayeRen/acad-homepage.github.io"
+title                    : "Ruiyi Yan"
+description              : "Ph.D. student at Kyoto University. Working on LLM steganography, watermarking, and memory."
+repository               : "ryehr/ruiyiyan-homepage.github.io"
+
+# Project site: the repo is NOT named <username>.github.io, so the site is served
+# from a subpath and every generated URL needs the baseurl prefix.
+url                      : "https://ryehr.github.io"
+baseurl                  : "/ruiyiyan-homepage.github.io"
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -21,14 +26,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Lorem ipsum"
+  name             : "Ruiyi Yan"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Lorem ipsum College"
-  location         : "Beijing, China"
-  employer         :
+  bio              : "Ph.D. Student, Kyoto University"
+  location         : "Kyoto, Japan"
+  employer         : "Language Media Processing Lab"
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  email            : "Lorem@ipsum.com"
+  googlescholar    : "https://scholar.google.com/citations?user=Wfkf1S4AAAAJ"
+  email            : "ruiyi@nlp.ist.i.kyoto-u.ac.jp"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,7 +42,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : # e.g., "github username"
+  github           : "ryehr"
   google_plus      :
   keybase          :
   instagram        :
@@ -66,6 +71,7 @@ include:
   - files
 exclude:
   - docs
+  - "Resume*.pdf"   # personal CV: kept local, never published
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"

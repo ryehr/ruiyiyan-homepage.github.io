@@ -17,42 +17,98 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I am a Ph.D. student at the [Language Media Processing Lab](https://nlp.ist.i.kyoto-u.ac.jp/EN/), Graduate School of Informatics, Kyoto University, advised by Associate Professor Yugo Murawaki.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research centers on **making the hidden structure of language models usable and controllable** — currently along three threads: **linguistic steganography** (provably secure information hiding in generated text), **watermarking** for large language models, and **memory** in LLM agents. A recurring theme in my work is the mismatch between the token-level view a model operates on and the string-level view a reader or adversary sees, which turns out to be a source of both security failures and efficiency gains.
 
+I am supported by a [JSPS Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) and the Kyoto University DoGS SPRING Program. You can find my work on <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'>Google Scholar <strong><span id='total_cit'></span></strong></a> <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+I am always happy to talk about steganography, watermarking, or agent memory — feel free to reach out by [email](mailto:ruiyi@nlp.ist.i.kyoto-u.ac.jp).
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.08*: &nbsp;🎉 Two papers accepted to **EMNLP 2026**: *MemDefrag* and our survey on linguistic steganography.
+- *2026.04*: &nbsp;🎉 Two papers accepted to **ACL 2026**: *Efficient Provably Secure Linguistic Steganography via Range Coding* and *Anchored Sliding Window*.
+- *2026.04*: &nbsp;🎖 Awarded the **JSPS Research Fellowship for Young Scientists (DC2)**, 2026.04 – 2028.03.
+- *2025.12*: &nbsp;💻 Started working with **Tencent (Tokyo)** on memory for LLM agents.
+- *2025.08*: &nbsp;🎉 One paper accepted to **EMNLP 2025** on tokenization inconsistency in steganography and watermarking.
+- *2024.10*: &nbsp;🎓 Started my Ph.D. at **Kyoto University** as a DoGS SPRING Fellow.
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<sup>\*</sup> All papers below are first-author. See [Google Scholar](https://scholar.google.com/citations?user=Wfkf1S4AAAAJ) for the complete list.
+
+<!-- TODO: swap images/500x300.png for a real teaser figure from each paper (drop the file into images/). -->
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/500x300.png' alt="MemDefrag" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**MemDefrag: Latent Memory Defragmentation for Large Language Models**
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Ruiyi Yan**, Zhuoyuan Mao, Yiwen Guo
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+*Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*
+
+[<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MemDefrag)
+
+- Treats an LLM's accumulated latent memory as a fragmented store and reorganizes it, recovering capacity that is otherwise lost to fragmentation.
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/500x300.png' alt="Range Coding" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Efficient Provably Secure Linguistic Steganography via Range Coding](https://arxiv.org/abs/2604.08052)
+
+**Ruiyi Yan**, Yugo Murawaki
+
+*Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)*
+
+[<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RRC_steganography)
+
+- Achieves provable security for generative linguistic steganography while keeping encoding and decoding efficient, using range coding over the model's output distribution.
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/500x300.png' alt="Steganography Survey" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**A Comprehensive Survey on Linguistic Steganography: Methods, Countermeasures, Evaluation, and Challenges**
+
+**Ruiyi Yan**, Chenhui Chu, Zhongliang Yang, Yugo Murawaki
+
+*Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*
+
+- A systematic account of how large language models reshaped linguistic steganography, covering embedding methods, steganalysis countermeasures, evaluation protocols, and open problems.
+</div>
+</div>
+
+- [Anchored Sliding Window: Toward Robust and Imperceptible Linguistic Steganography](https://arxiv.org/abs/2604.09066), **Ruiyi Yan**, Shiao Meng, Yugo Murawaki, **ACL 2026** \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/ASW_steganography)
+
+- [Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models](https://aclanthology.org/2025.emnlp-main.361/), **Ruiyi Yan**, Yugo Murawaki, **EMNLP 2025** \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/Consistency)
+
+- [TokenFree: A Tokenization-Free Generative Linguistic Steganographic Approach with Enhanced Imperceptibility](https://ieeexplore.ieee.org/document/10831652), **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 449–455 \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/TokenFree)
+
+- [A Near-Imperceptible Disambiguating Approach via Verification for Generative Linguistic Steganography](https://ieeexplore.ieee.org/document/10831370), **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 1638–1643
+
+- [A Secure and Disambiguating Approach for Generative Linguistic Steganography](https://doi.org/10.1109/LSP.2023.3302749), **Ruiyi Yan**, Yating Yang, Tian Song, **IEEE Signal Processing Letters**, vol. 30, pp. 1047–1051, 2023 \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MWIS-disambiguation)
+
+## Preprints and Manuscripts under Review
+
+- **HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework**, **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.04 – 2028.03*, JSPS Research Fellowship for Young Scientists (DC2), Japan Society for the Promotion of Science.
+- *2024.10 – 2027.09*, DoGS Fellow, Kyoto University DoGS SPRING Program.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2024.10 – present*, Ph.D. student in Informatics (Intelligence Science and Technology), Kyoto University, Kyoto, Japan.
+- *2021.09 – 2024.06*, M.S. in Cyberspace Security, Beijing Institute of Technology, Beijing, China.
+- *2017.09 – 2021.06*, B.E. in Network Engineering, University of Electronic Science and Technology of China, Chengdu, China.
 
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+# 💻 Research Experience
+- *2025.12 – present*, **Tencent**, Tokyo, Japan. Memory of LLM agents.
+- *2024.10 – present*, **Kyoto University**, Kyoto, Japan. Steganography and watermarking based on LLMs.
 
-# 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+# 🛠 Skills
+- **Programming**: Python, PyTorch, C.
+- **Languages**: Chinese (Mandarin, native), English (CEFR C1), Japanese (studying, around JLPT N3–N2).

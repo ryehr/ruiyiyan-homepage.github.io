@@ -1,3 +1,7 @@
 _site/
 push.sh
 .DS_Store
+
+# Personal CV kept locally: the current PDF contains phone numbers.
+# Publish a scrubbed copy under files/ instead if you want a public CV link.
+Resume*.pdf
