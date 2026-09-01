@@ -73,6 +73,7 @@ exclude:
   - docs
   - "Resume*.pdf"   # personal CV: kept local, never published
   - "images/picture.jpg"   # full-res avatar source, not published
+  - "images/bird.jpg"      # avatar source, not published
   - google_scholar_crawler
   - "*.sublime-project"
   - "*.sublime-workspace"
