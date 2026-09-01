@@ -47,7 +47,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 - **Anchored Sliding Window: Toward Robust and Imperceptible Linguistic Steganography**, **Ruiyi Yan**, Shiao Meng, Yugo Murawaki, **ACL 2026**, pp. 993–1012 \| [<i class="ai ai-open-access"></i> **Paper**](https://aclanthology.org/2026.acl-long.44/) \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2604.09066) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/ASW_steganography)
 
-- **Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models**, **Ruiyi Yan**, Yugo Murawaki, **EMNLP 2025** \| [<i class="ai ai-open-access"></i> **Paper**](https://aclanthology.org/2025.emnlp-main.361/) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/Consistency)
+- **Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models**, **Ruiyi Yan**, Yugo Murawaki, **EMNLP 2025**, pp. 7076–7098 \| [<i class="ai ai-open-access"></i> **Paper**](https://aclanthology.org/2025.emnlp-main.361/) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/Consistency)
 
 - **TokenFree: A Tokenization-Free Generative Linguistic Steganographic Approach with Enhanced Imperceptibility**, **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 449–455 \| [<i class="ai ai-ieee"></i> **Paper**](https://ieeexplore.ieee.org/document/10831652) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/TokenFree)
 
