@@ -39,52 +39,11 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 <sup>\*</sup> All papers below are first-author. See [Google Scholar](https://scholar.google.com/citations?user=Wfkf1S4AAAAJ) for the complete list.
 
-<!-- TODO: swap images/500x300.png for a real teaser figure from each paper (drop the file into images/). -->
+- [MemDefrag: Latent Memory Defragmentation for Large Language Models](https://arxiv.org/abs/2607.05969), **Ruiyi Yan**, Zhuoyuan Mao, Yiwen Guo, **EMNLP 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2607.05969) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MemDefrag)
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/500x300.png' alt="MemDefrag" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- [A Comprehensive Survey on Linguistic Steganography: Methods, Countermeasures, Evaluation, and Challenges](https://arxiv.org/abs/2608.29077), **Ruiyi Yan**, Chenhui Chu, Zhongliang Yang, Yugo Murawaki, **EMNLP 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2608.29077)
 
-[MemDefrag: Latent Memory Defragmentation for Large Language Models](https://arxiv.org/abs/2607.05969)
-
-**Ruiyi Yan**, Zhuoyuan Mao, Yiwen Guo
-
-*Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*
-
-[<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2607.05969) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MemDefrag)
-
-- Treats an LLM's accumulated latent memory as a fragmented store and reorganizes it, recovering capacity that is otherwise lost to fragmentation.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/500x300.png' alt="Range Coding" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Efficient Provably Secure Linguistic Steganography via Range Coding](https://arxiv.org/abs/2604.08052)
-
-**Ruiyi Yan**, Yugo Murawaki
-
-*Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)*
-
-[<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2604.08052) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RRC_steganography)
-
-- Achieves provable security for generative linguistic steganography while keeping encoding and decoding efficient, using range coding over the model's output distribution.
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026</div><img src='images/500x300.png' alt="Steganography Survey" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[A Comprehensive Survey on Linguistic Steganography: Methods, Countermeasures, Evaluation, and Challenges](https://arxiv.org/abs/2608.29077)
-
-**Ruiyi Yan**, Chenhui Chu, Zhongliang Yang, Yugo Murawaki
-
-*Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*
-
-[<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2608.29077)
-
-- A systematic account of how large language models reshaped linguistic steganography, covering embedding methods, steganalysis countermeasures, evaluation protocols, and open problems.
-</div>
-</div>
+- [Efficient Provably Secure Linguistic Steganography via Range Coding](https://arxiv.org/abs/2604.08052), **Ruiyi Yan**, Yugo Murawaki, **ACL 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2604.08052) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RRC_steganography)
 
 - [Anchored Sliding Window: Toward Robust and Imperceptible Linguistic Steganography](https://arxiv.org/abs/2604.09066), **Ruiyi Yan**, Shiao Meng, Yugo Murawaki, **ACL 2026** \| [<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2604.09066) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/ASW_steganography)
 
