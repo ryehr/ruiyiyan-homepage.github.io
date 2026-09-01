@@ -19,13 +19,9 @@ redirect_from:
 
 I am a Ph.D. student at the [Language Media Processing Lab](https://nlp.ist.i.kyoto-u.ac.jp/EN/), Graduate School of Informatics, Kyoto University, advised by Associate Professor Yugo Murawaki.
 
-My research is on the **security and reliability of text that language models generate**, along two threads.
+My earlier work is on the security of text that language models generate — **linguistic steganography and watermarking**, where I looked at how provable guarantees hold up once a message has to survive a real channel, and at what the tokenizer quietly breaks along the way. I also [surveyed that field](https://arxiv.org/abs/2608.29077).
 
-The first is **linguistic steganography and watermarking**. Provable security is well understood in the abstract, but the guarantees tend to weaken once a stegotext has to survive a real channel, and my work targets the points where they do. [Range coding](https://arxiv.org/abs/2604.08052) recovers the embedding capacity that provably secure methods normally give up, reaching close to full entropy utilization. [Anchored sliding window](https://arxiv.org/abs/2604.09066) keeps hidden messages recoverable after the carrier text has been edited, without the drop in text quality that shrinking the context window causes. And when sender and receiver [tokenize the same string differently](https://aclanthology.org/2025.emnlp-main.361/), robustness degrades silently — the tokens responsible turn out to be identifiable by being infrequent and temporary. I have also [surveyed the field](https://arxiv.org/abs/2608.29077), covering 148 methods, 60 steganalysis countermeasures, 23 evaluation metrics, and 9 open challenges, and identifying five paradigm shifts the LLM era has brought to it.
-
-The second is **memory in LLM agents**. In [MemDefrag](https://arxiv.org/abs/2607.05969) we found that a small set of middle transformer layers already concentrates its attention on the memory fragment being retrieved — an implicit tracing signal — and used it to rank, reorder and prune stored memories, more than doubling knowledge retention over prior latent-memory methods without any training.
-
-A habit runs through both threads: instead of bolting extra machinery onto the model, look for the signal it already exposes — the full entropy of its output distribution, or where its attention is already pointing — and use that properly.
+My current focus is **memory in large language models and the agents built on them**. Long-term memory is still the weak point: a model accumulates history faster than it can organize it, and what it has stored degrades as it keeps being updated. I am interested in managing that from the inside — using signals the model already exposes to decide what is worth keeping, how it should be arranged, and what can be forgotten — rather than bolting external machinery on top.
 
 I am supported by a [JSPS Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) and the Kyoto University DoGS SPRING Program. You can find my work on <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'>Google Scholar</a> <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
@@ -54,7 +50,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*
 
-[<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MemDefrag)
+[<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2607.05969) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MemDefrag)
 
 - Treats an LLM's accumulated latent memory as a fragmented store and reorganizes it, recovering capacity that is otherwise lost to fragmentation.
 </div>
@@ -69,7 +65,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (ACL 2026)*
 
-[<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RRC_steganography)
+[<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2604.08052) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RRC_steganography)
 
 - Achieves provable security for generative linguistic steganography while keeping encoding and decoding efficient, using range coding over the model's output distribution.
 </div>
@@ -83,6 +79,8 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 **Ruiyi Yan**, Chenhui Chu, Zhongliang Yang, Yugo Murawaki
 
 *Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)*
+
+[<i class="ai ai-arxiv"></i> **Paper**](https://arxiv.org/abs/2608.29077)
 
 - A systematic account of how large language models reshaped linguistic steganography, covering embedding methods, steganalysis countermeasures, evaluation protocols, and open problems.
 </div>
@@ -100,7 +98,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 ## Preprints and Manuscripts under Review
 
-- **HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework**, **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
+- [HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework](https://arxiv.org/abs/2607.23597), **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
 
 # 🎖 Honors and Awards
 - *2026.04 – 2028.03*, JSPS Research Fellowship for Young Scientists (DC2), Japan Society for the Promotion of Science.
