@@ -51,7 +51,7 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 
 - **TokenFree: A Tokenization-Free Generative Linguistic Steganographic Approach with Enhanced Imperceptibility**, **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 449–455 \| [<i class="ai ai-ieee"></i> **Paper**](https://ieeexplore.ieee.org/document/10831652) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/TokenFree)
 
-- **A Near-Imperceptible Disambiguating Approach via Verification for Generative Linguistic Steganography**, **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 1638–1643 \| [<i class="ai ai-ieee"></i> **Paper**](https://ieeexplore.ieee.org/document/10831370)
+- **A Near-Imperceptible Disambiguating Approach via Verification for Generative Linguistic Steganography**, **Ruiyi Yan**, Tian Song, Yating Yang, **IEEE SMC 2024**, pp. 1638–1643 \| [<i class="ai ai-ieee"></i> **Paper**](https://ieeexplore.ieee.org/document/10831370) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/Verification-disambiguation)
 
 - **A Secure and Disambiguating Approach for Generative Linguistic Steganography**, **Ruiyi Yan**, Yating Yang, Tian Song, **IEEE Signal Processing Letters**, vol. 30, pp. 1047–1051, 2023 \| [<i class="ai ai-ieee"></i> **Paper**](https://doi.org/10.1109/LSP.2023.3302749) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MWIS-disambiguation)
 
