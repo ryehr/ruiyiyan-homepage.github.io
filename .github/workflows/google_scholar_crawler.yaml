@@ -9,6 +9,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # A successful run takes well under a minute. When Google Scholar serves a
+    # captcha, scholarly opens a browser and waits up to a week for a human to
+    # solve it, which on CI just burns the 6-hour job limit; cut it short instead.
+    timeout-minutes: 10
     steps:
     - uses: actions/checkout@v2
     - name: Install Reqs
