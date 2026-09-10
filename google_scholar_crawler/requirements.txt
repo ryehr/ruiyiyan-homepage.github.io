@@ -1,2 +1,5 @@
 jsonpickle==1.4.2
 scholarly==1.5.1
+# scholarly 1.5.1 imports bibtexparser.bibdatabase, which the 2.0 rewrite dropped.
+# 2.0.0 went stable on 2026-09-08 and broke this workflow, so hold it at 1.x.
+bibtexparser<2
