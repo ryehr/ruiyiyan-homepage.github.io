@@ -14,7 +14,9 @@ repository               : "ryehr/ruiyiyan-homepage.github.io"
 # from a subpath and every generated URL needs the baseurl prefix.
 url                      : "https://ryehr.github.io"
 baseurl                  : "/ruiyiyan-homepage.github.io"
-google_scholar_stats_use_cdn : true
+# raw.githubusercontent.com caches for 5 minutes; jsDelivr caches the branch for up
+# to 12 hours and a purge does not refresh it, so the badge lagged a day behind.
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
