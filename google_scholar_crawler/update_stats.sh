@@ -46,8 +46,19 @@ git init -q
 git add gs_data.json gs_data_shieldsio.json
 git -c user.name="Ruiyi Yan" -c user.email="yanruiyi001@gmail.com" \
     commit -q -m "Updated Citation Data"
-# SSH from this host to GitHub occasionally stalls; fail instead of hanging.
-GIT_SSH_COMMAND="ssh -i $SSH_KEY -o IdentitiesOnly=yes -o BatchMode=yes -o ConnectTimeout=20 -o ServerAliveInterval=15 -o ServerAliveCountMax=4" \
-    timeout 180 git push -q --force "$REMOTE" HEAD:google-scholar-stats
+# Pushes from this host to GitHub stall intermittently (2 of 3 attempts once
+# while setting this up), so time each attempt out and retry. Force-pushing the
+# same commit again is harmless.
+export GIT_SSH_COMMAND="ssh -i $SSH_KEY -o IdentitiesOnly=yes -o BatchMode=yes -o ConnectTimeout=20 -o ServerAliveInterval=15 -o ServerAliveCountMax=4"
+for attempt in 1 2 3 4 5; do
+  if timeout 120 git push -q --force "$REMOTE" HEAD:google-scholar-stats; then
+    break
+  fi
+  if [ "$attempt" -eq 5 ]; then
+    echo "$(date '+%F %T') push failed after $attempt attempts" >&2
+    exit 1
+  fi
+  sleep 30
+done
 
 echo "$(date '+%F %T') pushed citedby=$CITEDBY"
