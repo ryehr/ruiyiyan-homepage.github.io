@@ -1,10 +1,10 @@
 name: Get Citation Data
 
-on: 
+# Google Scholar blocks GitHub's runner IPs on most days, so the daily refresh
+# now runs from the lab server (google_scholar_crawler/update_stats.sh via cron).
+# This workflow is kept for manual runs only.
+on:
  workflow_dispatch:
- page_build: 
- schedule:
-  - cron:  '0 8 * * *'
 
 jobs:
   build:
