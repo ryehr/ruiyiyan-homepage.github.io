@@ -46,7 +46,8 @@ git init -q
 git add gs_data.json gs_data_shieldsio.json
 git -c user.name="Ruiyi Yan" -c user.email="yanruiyi001@gmail.com" \
     commit -q -m "Updated Citation Data"
-GIT_SSH_COMMAND="ssh -i $SSH_KEY -o IdentitiesOnly=yes -o BatchMode=yes" \
-    git push -q --force "$REMOTE" HEAD:google-scholar-stats
+# SSH from this host to GitHub occasionally stalls; fail instead of hanging.
+GIT_SSH_COMMAND="ssh -i $SSH_KEY -o IdentitiesOnly=yes -o BatchMode=yes -o ConnectTimeout=20 -o ServerAliveInterval=15 -o ServerAliveCountMax=4" \
+    timeout 180 git push -q --force "$REMOTE" HEAD:google-scholar-stats
 
 echo "$(date '+%F %T') pushed citedby=$CITEDBY"
