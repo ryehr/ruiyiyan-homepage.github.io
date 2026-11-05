@@ -21,11 +21,11 @@ I am a Ph.D. student at the [Language Media Processing Lab](https://nlp.ist.i.ky
 
 My earlier work is on the security of text that language models generate — **linguistic steganography and watermarking**, where I looked at how provable guarantees hold up once a message has to survive a real channel, and at what the tokenizer quietly breaks along the way. I also [surveyed that field](https://arxiv.org/abs/2608.29077).
 
-My current focus is **memory in large language models and the agents built on them**. Long-term memory is still the weak point: a model accumulates history faster than it can organize it, and what it has stored degrades as it keeps being updated. I am interested in managing that from the inside — using signals the model already exposes to decide what is worth keeping, how it should be arranged, and what can be forgotten.
+My current focus is **memory in large language models and the agents built on them**. Long-term memory is still the weak point: a model accumulates history faster than it can organize it, and what it has stored degrades as it keeps being updated. I am interested in managing that from the inside — using signals the model already exposes to decide what is worth keeping, how it should be arranged, and what can be forgotten. The same idea carries over to **retrieval**: [Re³Rank](https://arxiv.org/abs/2611.02550) reranks candidates using a few attention heads conditioned on the model's own reasoning trace.
 
 I am supported by a [JSPS Research Fellowship for Young Scientists (DC2)](https://www.jsps.go.jp/english/e-pd/index.html) and the Kyoto University DoGS SPRING Program. You can find my work on <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'>Google Scholar</a> <a href='https://scholar.google.com/citations?user=Wfkf1S4AAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
-I am always happy to talk about steganography, watermarking, or agent memory — feel free to reach out by [email](mailto:ruiyi@nlp.ist.i.kyoto-u.ac.jp).
+I am always happy to talk about steganography, watermarking, agent memory, or reranking — feel free to reach out by [email](mailto:ruiyi@nlp.ist.i.kyoto-u.ac.jp).
 
 # 🔥 News
 - *2026.11*: &nbsp;📢 Released **Re³Rank**, a listwise reranker that scores candidates with attention heads conditioned on an LLM's reasoning trace, along with its code and trained models.
