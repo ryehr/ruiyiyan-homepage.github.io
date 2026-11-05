@@ -28,6 +28,7 @@ I am supported by a [JSPS Research Fellowship for Young Scientists (DC2)](https:
 I am always happy to talk about steganography, watermarking, or agent memory — feel free to reach out by [email](mailto:ruiyi@nlp.ist.i.kyoto-u.ac.jp).
 
 # 🔥 News
+- *2026.11*: &nbsp;📢 Released **Re³Rank**, a listwise reranker that scores candidates with attention heads conditioned on an LLM's reasoning trace, along with its code and trained models.
 - *2026.08*: &nbsp;🎉 Two papers accepted to **EMNLP 2026**: *MemDefrag* and our survey on linguistic steganography.
 - *2026.04*: &nbsp;🎉 Two papers accepted to **ACL 2026**: *Efficient Provably Secure Linguistic Steganography via Range Coding* and *Anchored Sliding Window*.
 - *2025.12*: &nbsp;💻 Started a research internship at **Tencent (Tokyo)**, working on memory for LLM agents.
@@ -56,6 +57,8 @@ I am always happy to talk about steganography, watermarking, or agent memory —
 - **A Secure and Disambiguating Approach for Generative Linguistic Steganography**, **Ruiyi Yan**, Yating Yang, Tian Song, **IEEE Signal Processing Letters**, vol. 30, pp. 1047–1051, 2023 \| [<i class="ai ai-ieee"></i> **Paper**](https://doi.org/10.1109/LSP.2023.3302749) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/MWIS-disambiguation)
 
 ## Preprints and Manuscripts under Review
+
+- **Re³Rank: Listwise Reranking with Reasoning-Conditioned Retrieval Heads**, **Ruiyi Yan**, Zhuoyuan Mao, Yugo Murawaki, Yiwen Guo, *arXiv preprint, 2026* \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2611.02550) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/RE3RANK) \| [🤗 **Models**](https://huggingface.co/collections/Ryehr/re3rank-6ae816c96f893091e4e93ca9)
 
 - **HiTMS: A High-Throughput Multi-Stream Linguistic Steganography Framework**, **Ruiyi Yan**, Zhongliang Yang, Yugo Murawaki, *under review* \| [<i class="ai ai-arxiv"></i> **arXiv**](https://arxiv.org/abs/2607.23597) \| [<i class="fab fa-github"></i> **Code**](https://github.com/ryehr/HiTMS_steganography)
 
