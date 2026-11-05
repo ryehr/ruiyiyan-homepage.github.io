@@ -72,7 +72,7 @@ I am always happy to talk about steganography, watermarking, agent memory, or re
 - *2017.09 – 2021.06*, B.E. in Network Engineering, University of Electronic Science and Technology of China, Chengdu, China.
 
 # 💻 Research Experience
-- *2025.12 – present*, Research Intern, **Tencent**, Tokyo, Japan. Memory of LLM agents.
+- *2025.12 – 2026.11*, Research Intern, **Tencent**, Tokyo, Japan. Memory of LLM agents.
 - *2024.10 – present*, Ph.D. Research, **Kyoto University**, Kyoto, Japan. Steganography and watermarking based on LLMs.
 
 # 🛠 Skills
